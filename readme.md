@@ -1,8 +1,7 @@
-This is where we will be displaying the basic git functionality.
-
 
 Essential Topics.
 - Getting some code, or creating a repo.
+    - git init ;; creates a new local repo.
 - Adding files.
 - Checking the status.
 - commiting, and good messages.
@@ -18,6 +17,9 @@ Essential Topics.
 - blame.
 - log.
 - alias.
+
+
+Not Essential Topics.
 
 - Config
     git config credential.helper ""
