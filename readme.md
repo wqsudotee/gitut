@@ -12,8 +12,14 @@ Essential Topics.
 - branching.
 - merging.
 - patching.
-- blame
-- log
+- blame.
+- log.
+- alias.
 
-windows sometimes dies with the credential helper, this resolves it.
-git config credential.helper ""
+- Config
+    git config credential.helper ""
+
+- Alias
+    [Alias]
+     lg = log --graph --pretty=format:'%Cred%h%Creset %ad %s %C(yellow)%d%Creset %C(bold blue)<%an>%Creset' --date=short
+     hist = log --graph --full-history --all --pretty=format:'%Cred%h%Creset %ad %s %C(yellow)%d%Creset %C(bold blue)<%an>%Creset' --date=short
