@@ -10,6 +10,9 @@ Essential Topics.
 - pulling. (pull, fetch, clone, checkout, REBASE)
 - showing.
 - branching.
+    - git branch <name> ;; This will create the branch
+    - git checkout <name> ;; This switches to it
+    - git push --set-upstream origin <name> This sets the 'upstream'. Name it correctly forfucksakes
 - merging.
 - patching.
 - blame.
