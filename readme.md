@@ -15,6 +15,5 @@ Essential Topics.
 - blame
 - log
 
-
 windows sometimes dies with the credential helper, this resolves it.
 git config credential.helper ""
