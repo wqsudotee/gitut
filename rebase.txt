@@ -1,0 +1,47 @@
+Merging is exactly what happened.
+Rebasing is what should've happened.
+Whether or not to rebase is normally a call
+about what the history means to you. If you are working 
+locally and haven't pushed changes then you should rebase
+whenever it will give you a more 'linear' history.
+If changes have been pushed and are working and aren't problematic
+then don't rebase for the sake of prettifying the tree.
+
+My rule of thumb: Rebase local changes. Merge remote changes.
+unless.. If you have a feature branch that is entirely your own,
+Go ahead and do an interactive rebase at the end. It lets you make 
+it look really tidy and readeable.
+
+----------------------------------
+MT-122:       [A]
+             /              \
+MT17f: [1]-[2]            - [3]-[4]-[5]
+This will 'fast forward and keep a nice history.
+Merging is gonna be fine
+
+
+MT-122:     [A] - [B]
+            /       \
+MT17f: [1]-[2]-[3]-[4]-[5]
+This will generally work fine, but it will make
+history a bit messy. 
+
+----------------------------------
+Rebasing.
+Rebasing is all about branch hygeine,
+It creates a linear history by undoing your changes back to
+the common ancestor, applying the changes from the other branch
+to that ancestor, then applying your changes over top. Then you
+can merge as a linear history. Rebasing can also happen
+interactively with --interactive. This is excellent.
+Do this instead of doing commit --amend whenever you can imo.
+
+[1]-[2]-[3]-[4]-[A]-[5]
+
+WARNING. Rebasing is dope but it is powerful. 
+Don't rebase shit from other repositories into your own.
+
+FUCKINYEAHGIT: x [command]
+This will run the command on each marked commit. Like test suites or 
+scss compiling or formatters. Can save a lot of time for large rebases.
+----------------------------------
