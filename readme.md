@@ -7,7 +7,8 @@ Essential Topics.
 - Checking the status.
 - commiting, and good messages.
 - pushing.
-- pulling.
+- pulling. (pull, fetch, clone, checkout, REBASE)
+- showing.
 - branching.
 - merging.
 - patching.
