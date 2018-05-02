@@ -1,0 +1,8 @@
+Status.
+Git status show your current staged and unstaged statuses
+and where you are in relation to your remote branch. With
+verbose it will also show you your changes. It will
+generally suggest some commands to you.
+	$git status
+	$git status -vv
+Use it like, all the time, man.

@@ -1,0 +1,38 @@
+Local Changes? checkout
+Staged Changes? reset
+Committed Changes? Revert
+
+Stick to this. If anyone does a 
+reset on published code you stab them.
+
+Revert
+Revert is best for commits.
+Revert is safe.
+If you want to undo the changes from a commit use revert.
+	$git revert
+	$git revert commit
+	$git revert commit-range
+This will create a new commit with equal and opposite changes,
+cancelling out the selected commits.
+
+Reset
+Reset is best for staged changes.
+Use it to unstage changes you don't want staged.
+	$git reset file
+Stick to this useage. Don't tryout --hard just because
+you don't know how to undo something. Git tells you when to
+use reset.
+
+Checkout
+Checkout is best for local changes.
+If you have unstaged, uncommitted work that you just want gone,
+use git checkout.
+	$git checkout file
+	$git checkout -- .
+This just gets the stuff back from head and throws away your stuff.
+
+Clean
+Just don't do it.
+	$git clean ;; Just don't, it's dangerous.
+	$git clean -fdx ;; ah, whatever. try it. learn a lesson.
+Seriously dont.

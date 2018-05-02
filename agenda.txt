@@ -6,3 +6,4 @@
 - The difference between rebasing and merging.
 - Undoing changes, stashing.
 - Looking through the log, diffs, and graphs.
+- Nonos.

@@ -22,6 +22,7 @@ Things you do each day.
 
     - merging back,
         - git merge
+        - git merge --ff-only
 
 - Undoing
     - revert (undo a commit with opposing changes)
@@ -40,7 +41,7 @@ Things you do each day.
         - git show
         - git log -1 -p ;; diff of last commit.
         - git diff ;; Unstaged diff
-        - git diff --cached staged diff
+        - git diff --staged ;; staged vs last commit
     - looking at branches/branching
         - git branch -av
         - git checkout <branch>
