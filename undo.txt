@@ -36,5 +36,3 @@ Just don't do it.
 	$git clean ;; Just don't, it's dangerous.
 	$git clean -fdx ;; ah, whatever. try it. learn a lesson.
 Seriously dont.
-.. but if you do.
-	$git clean -fdxn ;; the -n flag will do a dry run. 
