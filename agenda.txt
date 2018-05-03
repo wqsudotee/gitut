@@ -1,8 +1,0 @@
-- Get a project.
-- Make a branch.
-- Make a change.
-- Merge the branch.
-
-- The difference between rebasing and merging.
-- Undoing changes, stashing.
-- Looking through the log, diffs, and graphs.
