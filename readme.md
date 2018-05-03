@@ -25,6 +25,7 @@ Things you do each day.
 
 - Undoing
     - revert (undo a commit with opposing changes)
+    - move head somewhere else
     - reset (bye bye all local changes)
     - checkout (bye bye changes 1 file)
 
@@ -33,6 +34,9 @@ Things you do each day.
         - git status
         - git show
         - git log -1
+    - searching through commits,
+        -
+
     - looking at branches/branching
         - git branch -av
     - blaming
@@ -44,6 +48,7 @@ Things you do less often.
 - cherrypicking.
 - stashing.
 - git config credential.helper ""
+- git config *
 
 Alias
 [Alias]
