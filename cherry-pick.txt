@@ -1,4 +1,0 @@
-Cherry pick takes commits and replays on your current location.
-
-Only do it to your own commits. 
-Try to only do it when you need to.
