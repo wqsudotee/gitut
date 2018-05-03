@@ -27,7 +27,7 @@ Things you do each day.
     - revert (undo a commit with opposing changes)
     - reset (bye bye all staged changes)
         - git reset ;; undo staged
-        - git checkout * ;; undo unstaged
+        - git clearn ;; undo un-staged
         - git reset --hard ;; Don't reset on a branch that has never been pushed.
         - git rm --cached file 
         - git reset --merge ;; reverts the merged stuff
@@ -37,9 +37,7 @@ Things you do each day.
     - status
         - git status
         - git show
-        - git log -1 -p ;; diff of last commit.
-        - git diff ;; Unstaged diff
-        - git diff --cached staged diff
+        - git log -1
     - looking at branches/branching
         - git branch -av
     - blaming
