@@ -37,12 +37,14 @@ Things you do each day.
 - Reading
     - status
         - git status
+        - git status -vv
         - git show
         - git log -1 -p ;; diff of last commit.
         - git diff ;; Unstaged diff
         - git diff --staged ;; staged vs last commit
     - looking at branches/branching
         - git branch -av
+        - git checkout <branch>
     - blaming
         - git blame <file>
     - diffing between two revisions.
