@@ -25,12 +25,7 @@ Things you do each day.
 
 - Undoing
     - revert (undo a commit with opposing changes)
-    - reset (bye bye all staged changes)
-        - git reset ;; undo staged
-        - git clearn ;; undo un-staged
-        - git reset --hard ;; Don't reset on a branch that has never been pushed.
-        - git rm --cached file 
-        - git reset --merge ;; reverts the merged stuff
+    - reset (bye bye all local changes)
     - checkout (bye bye changes 1 file)
 
 - Reading
