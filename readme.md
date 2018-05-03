@@ -7,13 +7,13 @@ Essential Topics.
 - Checking the status.
 - commiting, and good messages.
 - pushing.
-- pulling.
+- pulling. (pull, fetch, clone, checkout, REBASE)
+- showing.
 - branching.
 - merging.
 - patching.
 - blame
 - log
-
 
 windows sometimes dies with the credential helper, this resolves it.
 git config credential.helper ""
